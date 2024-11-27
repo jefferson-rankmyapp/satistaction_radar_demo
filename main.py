@@ -11,7 +11,7 @@ st.image("data/Logo light mode.png", width=200)
 st.title("Análise de Satisfação de Apps")
 st.write("Essa aplicação permite analisar a satisfação de usuários para diferentes aplicativos, com base nas subcategorias e médias de rating dos reviews.")
 
-st.title("Upload de Arquivo CSV")
+st.subheader("Upload de Arquivo CSV")
 
 # Componente de upload
 uploaded_file = st.file_uploader("Faça o upload de um arquivo .csv", type=["csv"])
