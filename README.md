@@ -18,7 +18,7 @@ Este projeto realiza a análise de satisfação dos usuários de diferentes apli
 
 ### Coleta e Processamento de Dados
 
-1. **Consulta ao MongoDB**: Extrai avaliações de apps com base em filtros, incluindo período e idioma.
+1. **Upload de Arquivo**: Upload de arquivo csv contendo os ratings médios por app, mês e app
 2. **Processamento de Dados**: Agrupa os dados para cada `appId` por subcategoria, calcula a média de rating e o volume total.
 
 ### Visualizações Interativas
