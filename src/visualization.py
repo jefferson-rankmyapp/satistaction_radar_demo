@@ -33,6 +33,15 @@ app_titles = {
     "com.itau":"Banco Itau",
     "br.com.uol.ps.myaccount":"PagBank",
     "com.c6bank.app.yellow":"C6 Yellow",
+    'br.com.brainweb.ifood': 'iFood',
+    'com.mcdo.mcdonalds': 'Méqui',
+    'com.cerveceriamodelo.modelonow': 'Zé Delivery',
+    'burgerking.com.br.appandroid': 'Burger king',
+    'com.foodtosave.foodtosave': 'Food to save',
+    'com.kobe.cacaushow': 'Cacau Show',
+    'com.vanuatu.aiqfome': 'Aiqfome',
+    'habibs.alphacode.com.br': 'Habibs',
+    'com.br.bobsbrasil': 'Bobs ',
 }
 
 def plot_radar_chart(csv_file):
