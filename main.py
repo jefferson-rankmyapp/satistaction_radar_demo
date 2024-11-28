@@ -4,7 +4,10 @@ import pandas as pd
 from src.visualization import plot_radar_chart, plot_single_app_radar
 
 # Configurações iniciais da página do Streamlit
-st.set_page_config(page_title="Análise de Satisfação de Apps", page_icon="data/Logo light mode.png")
+st.set_page_config(
+    page_title="Análise de Satisfação de Apps", 
+    page_icon="data/Logo light mode.png"
+    layout="wide")
 
 # Título e logotipo
 st.image("data/Logo light mode.png", width=200)
